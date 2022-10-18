@@ -1,0 +1,50 @@
+#include<stdio.h>
+#include<conio.h>
+#include<dos.h>
+#include<stdlib.h>
+#include<windows.h>
+int main()
+{
+	int b=0;
+	while(b!=7181)
+	{
+		
+		b=system("bioskey=0");
+		if(b==7777)
+		{
+			Beep(400,100);
+		}
+        if(b==8051)
+		{
+			Beep(500,100);
+		}
+		if(b==8292)
+		{
+			Beep(600,100);
+		}
+		if(b==8550)
+		{
+			Beep(700,100);
+		}
+		if(b==8807)
+		{
+			Beep(800,100);
+		}
+		if(b==9064)
+		{
+			Beep(900,100);
+		}
+		if(b==9322)
+		{
+			Beep(1000,100);
+		}
+		if(b==9322);
+		{
+			Beep(400,100);
+		}
+		if(b==7777)
+		{
+			Beep(400,100);
+		}		
+	}
+}
